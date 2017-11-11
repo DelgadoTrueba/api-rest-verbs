@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./global/header') -%>
+  <body>
+      <%- include('./global/nav') -%>
+      <div id="contenedor" class="container">
+            
+            <%- include('./verbs/table') -%>   
+            <%- include('./verbs/form') -%>
+            <%- include('./verbs/modal') -%>
+            <%- include('./verbs/crearVerbo.ejs') -%>
+            <%- include('./verbs/actualizarVerbo.ejs') -%>
+            <%- include('./verbs/crearEjemplo.ejs') -%>
+            <%- include('./verbs/warning') -%>
+
+      </div>
+      <script type="application/javascript" src="/public/js/verbs.js"></script>
+  </body>
+</html>
